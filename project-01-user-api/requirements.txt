@@ -1,0 +1,56 @@
+flask
+
+⚙️ Setup Commands
+
+# Navigate to backend repository
+cd ~/Backend-Development-Labs
+
+# Create project folder
+mkdir project-01-user-api
+cd project-01-user-api
+
+# Create project files
+touch README.md app.py requirements.txt
+
+📤 Git Commands
+
+# Go back to main repo folder
+cd ..
+
+# Add files to git
+git add .
+
+# Commit changes
+git commit -m "add project 01 user api"
+
+# Push to GitHub
+git push
+
+▶️ Run the Project
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the server
+python app.py
+
+🧪 API Testing
+Get users
+
+GET http://127.0.0.1:5000/users
+
+Add user
+
+POST http://127.0.0.1:5000/users
+
+Delete user
+
+DELETE http://127.0.0.1:5000/users/0
+
+📦 Example Request Body
+
+{
+  "name": "Alhanoof",
+  "role": "Backend Developer"
+}
+
