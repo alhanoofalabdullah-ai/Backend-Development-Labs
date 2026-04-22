@@ -1,0 +1,33 @@
+flask
+
+Setup Commands
+
+cd ~/Backend-Development-Labs
+mkdir project-05-logging-api
+cd project-05-logging-api
+touch README.md app.py requirements.txt app.log
+
+Git Commands
+
+cd ..
+git add .
+git commit -m "add project 05 logging api"
+git push
+
+Run the Project
+
+pip install -r requirements.txt
+python app.py
+
+API Testing
+Home
+
+GET http://127.0.0.1:5000/
+
+Log message
+
+Example Request Body
+
+{
+  "message": "Test log message"
+}
