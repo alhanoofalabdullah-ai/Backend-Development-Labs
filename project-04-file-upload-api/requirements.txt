@@ -1,0 +1,30 @@
+flask
+
+Setup Commands
+
+cd ~/Backend-Development-Labs
+mkdir project-04-file-upload-api
+cd project-04-file-upload-api
+mkdir uploads
+touch README.md app.py requirements.txt
+
+Git Commands
+
+cd ..
+git add .
+git commit -m "add project 04 file upload api"
+git push
+
+Run the Project
+
+pip install -r requirements.txt
+python app.py
+
+----------------------------
+Postman Test
+
+Method: POST
+URL: http://127.0.0.1:5000/upload
+Body → form-data
+Key: file
+Type: File
