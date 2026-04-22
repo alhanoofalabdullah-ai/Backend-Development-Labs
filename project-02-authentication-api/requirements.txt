@@ -1,0 +1,36 @@
+flask
+
+Setup Commands
+
+cd ~/Backend-Development-Labs
+mkdir project-02-authentication-api
+cd project-02-authentication-api
+touch README.md app.py requirements.txt
+
+Git Commands
+
+cd ..
+git add .
+git commit -m "add project 02 authentication api"
+git push
+
+Run the Project
+
+pip install -r requirements.txt
+python app.py
+
+API Testing
+
+POST http://127.0.0.1:5000/register
+
+Login
+
+POST http://127.0.0.1:5000/login
+
+Example Request Body
+
+{
+  "username": "alhanoof",
+  "password": "123456"
+}
+
