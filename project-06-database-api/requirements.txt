@@ -1,0 +1,45 @@
+flask
+
+Setup Commands
+
+cd ~/Backend-Development-Labs
+mkdir project-06-database-api
+cd project-06-database-api
+touch README.md app.py requirements.txt
+
+Git Commands
+
+cd ..
+git add .
+git commit -m "add project 06 database api"
+git push
+
+Run the Project
+
+pip install -r requirements.txt
+python app.py
+
+API Testing
+Get all users
+
+GET http://127.0.0.1:5000/users
+
+Get user by ID
+
+GET http://127.0.0.1:5000/users/1
+
+Create user
+
+POST http://127.0.0.1:5000/users
+
+Delete user
+
+DELETE http://127.0.0.1:5000/users/1
+
+Example Request Body
+
+{
+  "name": "Alhanoof",
+  "role": "Backend Developer"
+}
+
