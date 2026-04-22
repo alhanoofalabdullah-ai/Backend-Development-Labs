@@ -1,0 +1,20 @@
+flask
+
+Setup Commands
+
+cd ~/Backend-Development-Labs
+mkdir project-07-search-filter-api
+cd project-07-search-filter-api
+touch README.md app.py requirements.txt
+
+Git Commands
+
+cd ..
+git add .
+git commit -m "add project 07 search filter api"
+git push
+
+Run the Project
+
+pip install -r requirements.txt
+python app.py
