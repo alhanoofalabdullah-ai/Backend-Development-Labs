@@ -1,0 +1,29 @@
+flask
+
+⚙️ Setup Commands
+
+cd ~/Backend-Development-Labs
+mkdir project-03-crud-api
+cd project-03-crud-api
+touch README.md app.py requirements.txt
+
+📤 Git Commands
+
+cd ..
+git add .
+git commit -m "add project 03 crud api"
+git push
+
+▶️ Run
+
+pip install -r requirements.txt
+python app.py
+
+🧪 API Testing
+
+GET    http://127.0.0.1:5000/items
+POST   http://127.0.0.1:5000/items
+GET    http://127.0.0.1:5000/items/0
+PUT    http://127.0.0.1:5000/items/0
+DELETE http://127.0.0.1:5000/items/0
+
