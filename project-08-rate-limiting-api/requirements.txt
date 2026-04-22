@@ -1,0 +1,21 @@
+flask
+flask-limiter
+
+Setup Commands
+
+cd ~/Backend-Development-Labs
+mkdir project-08-rate-limiting-api
+cd project-08-rate-limiting-api
+touch README.md app.py requirements.txt
+
+Git Commands
+
+cd ..
+git add .
+git commit -m "add project 08 rate limiting api"
+git push
+
+Run the Project
+
+pip install -r requirements.txt
+python app.py
