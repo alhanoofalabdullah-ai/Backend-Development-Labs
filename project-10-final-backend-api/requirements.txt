@@ -1,0 +1,15 @@
+flask
+
+⚙️ Setup Commands
+
+cd ~/Backend-Development-Labs
+mkdir project-10-final-backend-api
+cd project-10-final-backend-api
+touch README.md app.py requirements.txt
+
+📤 Git Commands
+
+cd ..
+git add .
+git commit -m "add project 10 final backend api"
+git push
