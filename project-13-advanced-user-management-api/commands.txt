@@ -1,0 +1,5 @@
+cd ~/Backend-Development-Labs
+mkdir project-13-advanced-user-management-api
+cd project-13-advanced-user-management-api
+
+touch README.md app.py requirements.txt commands.txt
