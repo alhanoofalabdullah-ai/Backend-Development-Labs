@@ -1,0 +1,5 @@
+cd ~/Backend-Development-Labs
+mkdir project-19-audit-log-api
+cd project-19-audit-log-api
+
+touch README.md app.py requirements.txt commands.txt
