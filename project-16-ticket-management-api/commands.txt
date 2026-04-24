@@ -1,0 +1,5 @@
+cd ~/Backend-Development-Labs
+mkdir project-16-ticket-management-api
+cd project-16-ticket-management-api
+
+touch README.md app.py requirements.txt commands.txt
