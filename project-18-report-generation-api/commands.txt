@@ -1,0 +1,5 @@
+cd ~/Backend-Development-Labs
+mkdir project-18-report-generation-api
+cd project-18-report-generation-api
+
+touch README.md app.py requirements.txt commands.txt
