@@ -1,0 +1,5 @@
+cd ~/Backend-Development-Labs
+mkdir project-17-notification-management-api
+cd project-17-notification-management-api
+
+touch README.md app.py requirements.txt commands.txt
