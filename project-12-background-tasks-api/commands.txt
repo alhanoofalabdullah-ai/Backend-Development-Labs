@@ -1,0 +1,5 @@
+cd ~/Backend-Development-Labs
+mkdir project-12-background-tasks-api
+cd project-12-background-tasks-api
+
+touch README.md app.py requirements.txt commands.txt
