@@ -1,0 +1,5 @@
+cd ~/Backend-Development-Labs
+mkdir project-14-product-inventory-api
+cd project-14-product-inventory-api
+
+touch README.md app.py requirements.txt commands.txt
